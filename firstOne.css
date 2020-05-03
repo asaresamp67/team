@@ -1,0 +1,46 @@
+/* =========================
+BY Sampson Asare
+02.05.2020
+
+Responsive Website on Football
+
+============================= */
+
+html, body{
+  height: 100%;
+  text-align: center;
+}
+
+#front-page{
+  background: #222 url('img/stars.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#front-page-caption{
+  width: 100%;
+}
+
+.mlbtn{
+  margin-left: 10rem;
+}
+
+@media only screen and (max-width: 767px) {
+.mlbtn   {
+  margin-right: 3rem;
+  margin-left: 5rem;
+  }
+  .goal{
+    margin-left: 6rem;
+  }
+  .display-3 {
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+}
